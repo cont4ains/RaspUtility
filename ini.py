@@ -12,7 +12,7 @@ VER="0.1.1 | QTDE de CMDs = 10"
 data="19/09/17"
 
 #DEFINIR SEU TOKEN ENTRE AS ' '
-TOKEN = '419095918:AAHl1t3SEM45XL1jiDNi8NV6Feq32vVePpk'
+TOKEN = ' '
 bot = telebot.TeleBot(TOKEN)
 
 #====INÍCIO DOS COMANDOS====#
