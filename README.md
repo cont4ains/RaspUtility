@@ -4,7 +4,7 @@ Execução de comandos com o Telegram e os incrementando com shell script e Pyth
 
 Caso queira utilizar esses mecanismos criados aqui para seu ambiente, assim o faça.
 Livre para Distribuição, modificações e outras coisas que assim classificar.
-Peço que deixe os Crédito (: se puder.
+
 #Executar Script Principal: "sudo python3 ini.py"
 
 Comandos Existentes: Dê /start no telegram para visualizar.
