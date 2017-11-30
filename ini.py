@@ -29,7 +29,7 @@ def comando_start(mensagem):
 def comando_egg(mensagem):
    chat_id = mensagem.chat.id
    os.system("SCRIPTS/execegg.sh")
-   myegg = open('SCRIPTS/texto.txt', 'r').read()
+   myegg = open('texto.txt', 'r').read()
    bot.send_message(chat_id, myegg)
 
 #==> Realiza busca no Twitter do @CVEnew
@@ -37,7 +37,7 @@ def comando_egg(mensagem):
 def comando_cve(mensagem):
    chat_id = mensagem.chat.id
    os.system("SCRIPTS/execCVE.sh")
-   cve = open('SCRIPTS/twitterCVE.txt', 'r').read()
+   cve = open('twitterCVE.txt', 'r').read()
    bot.send_message(chat_id, cve)
 
 #==> Tempo de Dispositivo ligado
@@ -59,7 +59,7 @@ def comando_uptime(mensagem):
 def comando_ipx(mensagem):
    chat_id = mensagem.chat.id
    os.system("SCRIPTS/IP.sh")
-   ipx = open('SCRIPTS/rede.txt', 'r').read()
+   ipx = open('rede.txt', 'r').read()
    bot.send_message(chat_id, ipx)
 
 #==> Lista de Câmeras púlicas em BH
@@ -67,7 +67,7 @@ def comando_ipx(mensagem):
 def comando_cameras(mensagem):
    chat_id = mensagem.chat.id
    os.system("SCRIPTS/cameras.sh")
-   cam = open('SCRIPTS/cameras.txt', 'r').read()
+   cam = open('cameras.txt', 'r').read()
    bot.send_message(chat_id, cam)
 
 #==> Top notícias de Tecnologia G1
@@ -91,7 +91,7 @@ def comando_spaco(mensagem):
 def comando_clima(mensagem):
    chat_id = mensagem.chat.id
    os.system("SCRIPTS/clima.sh")
-   clima = open('SCRIPTS/clima.txt', 'r').read()
+   clima = open('clima.txt', 'r').read()
    bot.send_message(chat_id, clima)
 
 #====END OF COMMANDS====#
